@@ -12,7 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9add558ea839817458e68616e7ff33d8, type: 3}
   m_Name: Card2
   m_EditorClassIdentifier: 
-  CardName: Answer
-  cardLevel: Level1
-  art: {fileID: 21300000, guid: dcea51d6065d64246aeec467afeff684, type: 3}
-  cardDetail: Queston
+  properties:
+  - stringValue: Answer
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: eb3523c392205f7488691ff8cef64b57, type: 2}
+  - stringValue: vv
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: d934433c173f53147beaa831898f02da, type: 2}
+  - stringValue: 3
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 03cbbd52cbb22ff4e848fccbf5e62c3f, type: 2}
+  - stringValue: About the poltices. there is something about ..
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: d4e28d012c2b75c4fb23fe269d4995c2, type: 2}
