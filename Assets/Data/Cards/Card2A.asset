@@ -10,18 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9add558ea839817458e68616e7ff33d8, type: 3}
-  m_Name: Card2
+  m_Name: Card2A
   m_EditorClassIdentifier: 
+  cardType: {fileID: 11400000, guid: 0af6485ee6c183e478902a30938626eb, type: 2}
   properties:
-  - stringValue: Answer
+  - stringValue: Politic Q&A
     intValue: 0
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: eb3523c392205f7488691ff8cef64b57, type: 2}
   - stringValue: vv
     intValue: 0
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 1fe17dd9eb6707643aa010827ea6b42b, type: 3}
     element: {fileID: 11400000, guid: d934433c173f53147beaa831898f02da, type: 2}
-  - stringValue: 3
+  - stringValue: Answer
     intValue: 0
     sprite: {fileID: 0}
     element: {fileID: 11400000, guid: 03cbbd52cbb22ff4e848fccbf5e62c3f, type: 2}

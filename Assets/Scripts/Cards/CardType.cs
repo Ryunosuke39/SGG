@@ -7,7 +7,12 @@ namespace SA
     public abstract class CardType : ScriptableObject
     {
         public string typeName;
-        public abstract void OnSetType(CardViz viz);
+        public virtual void OnSetType(CardViz viz)
+        {
+            Element t = GameManager.GetResourcesManager().typeElement;
+            CardVizProperties type = viz.GetProperty(t);
+            type.text.text = typeName;
+        }
 
     }
 }

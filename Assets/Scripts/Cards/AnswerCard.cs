@@ -8,6 +8,8 @@ namespace SA
     {
         public override void OnSetType(CardViz viz)
         {
+            base.OnSetType(viz);
+
             viz.statsHolder.SetActive(true);
         }
     }

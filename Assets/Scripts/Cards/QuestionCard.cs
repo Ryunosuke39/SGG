@@ -5,11 +5,13 @@ using UnityEngine;
 namespace SA
 {
     [CreateAssetMenu(menuName = "Cards/Question")]
-    public class QuestionCard : CardType
+    public class QuestionCard : CardType // spell
     {
         public override void OnSetType(CardViz viz)
         {
-            viz.statsHolder.SetActive(false);
+            base.OnSetType(viz);
+
+            viz.statsHolder.SetActive(false); //in video it's false but we want to show answer so true
         }
     }
 }
