@@ -9,6 +9,7 @@ namespace SA
     {
         public Card card;
         public CardVizProperties[] properties;
+        public GameObject statsHolder;
 
         private void Start()
         {
@@ -21,6 +22,8 @@ namespace SA
                 return;
 
             card = c;
+
+            c.cardType.OnSetType(this);
 
             for (int i = 0; i < c.properties.Length; i++) 
             {
