@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35e91789b6618e4899debccc043b9e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 11400000, guid: cddd7e7a88a7d524ca8bf1309e48894a, type: 2}
+  card: {fileID: 11400000, guid: 9afac8142795b4548981d341b0e41cd9, type: 2}
   properties:
   - text: {fileID: 3762872748948732706}
     img: {fileID: 0}

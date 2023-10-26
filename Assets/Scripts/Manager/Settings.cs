@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SA
 {
-    public static class GameManager
+    public static class Settings
     {
         private static ResourcesManager _resourcesManager;
 
